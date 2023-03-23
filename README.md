@@ -95,9 +95,6 @@ Ordner, die in die selbe DSpace-Sammlung hochgeladen werden sollen, können in _
 
 Der **UI Batch Import** in DSpace [wird hier erklärt](https://wiki.lyrasis.org/display/DSDOC7x/Importing+and+Exporting+Items+via+Simple+Archive+Format#ImportingandExportingItemsviaSimpleArchiveFormat-UIBatchImport)
 
-\[Anmerkung: Der Batch Import ist aktuell nur für DSpace-Versionen < 7 implementiert\]
-
-
 ### Spezial: Mehrere Tabellen auslesen
 
 Das Skript liest lle Tabellen (Sheets) in einer Excel-Datei aus (Ausname: Tabellen, deren Namen mit einem Unterstrich '\_' beginnen). Auf diese Weise ist es möglich, verschiedene Dokumenttypen (etwa Artikel, Buch, Graue Literatur usw.), die jeweils verschiedene Metadatenfelder benötigen, auf verschiedene Tabellen in einer Datei zu verteilen. Tabellen, die nicht ausgelesen werden sollten, werden `'_NAME'` benannt.
